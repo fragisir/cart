@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Add to Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lovely Fruits</h1>
+    </header>
+    <main>
+        <section id="products">
+            <div class="product">
+                <img src="img/apple.jpg" alt="" >
+                <h2>Apple</h2>
+                <p id="Price">Price: $10</p>
+                <button onclick="goToCard(10)">Add</button>
+            </div>
+            <div class="product">
+                <img src="img/banana.jpg" alt="">
+                <h2>Banana</h2>
+                <p id="Price">Price: $15</p>
+                <button onclick="goToCard(15)">Add </button>
+            </div>
+            <div class="product">
+                <img src="img/mango.jpg" alt="">
+                <h2>Mango</h2>
+                <p id="Price">Price: $20</p>
+                <button onclick="goToCard(20)">Add </button>
+            </div>
+            <div class="product">
+                <img src="img/guava.jpg" alt="">
+                <h2>Guava</h2>
+                <p id="Price">Price: $200</p>
+                <button onclick="goToCard(200)">Add </button>
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Your Total Money</h2>
+            <ul id="cart-items">
+                <li>----------------------------------------------</li>
+            </ul>
+            <p id="total">Total: $0</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
